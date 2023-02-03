@@ -82,11 +82,8 @@ void excluirOuAlterar(){
 
             printf("%d\n", pontValor->valor);
             printf("Valor pelo qual sera alterado:");
-            printf("atual: %d\n", atual->valor);
             scanf("%d", &dado);
             pontValor->valor = dado;
-            printf("atual: %d\n", atual->valor);
-            printf("pontValor: %d\n", pontValor->valor);
             printf("Nova lista:\n");
             printarLista();
 
